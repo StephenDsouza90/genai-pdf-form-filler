@@ -51,7 +51,7 @@ This project is a learning experiment to build a GenAI-powered web app that help
    - Add your api key and azure endpoint to the env variable in the `docker-compose.yaml` file.
 3. **Start the app**
    ```bash
-   docker-compose up --build
+   docker-compose up --build -d
    ```
 4. **Access the app**
    - Frontend: [http://localhost:3000](http://localhost:3000)
