@@ -38,6 +38,7 @@ This project is a learning experiment to build a GenAI-powered web app that help
 ### Prerequisites
 - Docker & Docker Compose
 - OpenAI API Key
+- Azure endpoint
 
 ### Setup
 
@@ -47,7 +48,7 @@ This project is a learning experiment to build a GenAI-powered web app that help
    cd genai-pdf-form-filler
    ```
 2. **Configure environment variables**
-   - Copy `.env.example` to `.env` and add your OpenAI API key and database settings.
+   - Add your api key and azure endpoint to the env variable in the `docker-compose.yaml` file.
 3. **Start the app**
    ```bash
    docker-compose up --build
