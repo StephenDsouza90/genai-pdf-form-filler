@@ -10,6 +10,21 @@ This project is a learning experiment to build a GenAI-powered web app that help
 - **Auto-Fill & Download**: The backend fills the PDF and provides a download link for the completed form.
 - **Progress Tracking**: Tracks number of fields filled vs. total fields.
 
+<p align="center">
+   <strong>Upload PDF</strong><br>
+   <img src="assets/image.png" alt="alt text">
+</p>
+
+<p align="center">
+   <strong>Conversational Guidance</strong><br>
+   <img src="assets/image-1.png" alt="alt text">
+</p>
+
+<p align="center">
+   <strong>Download</strong><br>
+   <img src="assets/image-2.png" alt="alt text">
+</p>
+
 ## Tech Stack
 
 - **Backend**: FastAPI (Python), PyMuPDF, OpenAI API, SQLAlchemy
